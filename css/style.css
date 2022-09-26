@@ -3,8 +3,18 @@
 :root{
     --red: red;
     --blue: rgb(14, 118, 255);
-    --yellow: yellow;
-    --green: green;
+    --yellow: #f2cb4d;
+    --yellow2: #b89a3b;
+    --green: #2b702b;
+    --green2: #1f512f;
+    --brown: #6f3514;
+    --black: black;
+    --lilla: #90729f;
+    --lilla2: #745c80;
+    --white: #cfcfcf;
+    --darkgrey: #454545;
+    --skin: #deb7a4;
+    --skin2: #b89788;
 }
 
 .debug{
@@ -19,6 +29,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bb{
+    min-height: 200px;
+    font-size: 160px;
+    font-family: 'VT323', monospace;
+    transition: all 0.3s;
+}
+
+.bb:hover{
+    background-color: #BE302F;
+    transition: all 0.3s;
 }
 
 .debug3{
@@ -42,3 +64,61 @@
 .padding{
     padding: 10px;
 } 
+
+
+.debug4{
+    border: 0px solid rgb(255, 255, 255);
+    min-height: calc((1200px / 16) * 1);
+}
+
+.bkgdg{
+    background-color: var(--green);
+}
+
+.bkgdr{
+    background-color: #BE302F;
+    border: 0px;
+}
+
+/* colors */
+ .brown{
+    background-color: var(--brown);
+ }
+ .yellow{
+    background-color: var(--yellow);
+ }
+ .yellow2{
+    background-color: var(--yellow2);
+ }
+ .green{
+    background-color: var(--green);
+ }
+ .green2{
+    background-color: var(--green2);
+ }
+ .black{
+    background-color: var(--black);
+ }
+ .lilla{
+    background-color: var(--lilla);
+ }
+ .lilla2{
+    background-color: var(--lilla2);
+ }
+
+ .white{
+    background-color: var(--white);
+ }
+
+ .darkgrey{
+    background-color: var(--darkgrey);
+ }
+
+ .skin{
+    background-color: var(--skin);
+ }
+
+ .skin2{
+    background-color: var(--skin2);
+ }
+

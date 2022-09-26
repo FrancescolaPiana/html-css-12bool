@@ -114,3 +114,7 @@
     margin-left: calc((100% / 12) * 12); 
 }
 
+.col-n{
+    max-width: calc((100% / 16) * 1);
+    flex-basis: calc((100% / 16) * 1);
+}
