@@ -2,6 +2,9 @@
 
 :root{
     --red: red;
+    --blue: rgb(14, 118, 255);
+    --yellow: yellow;
+    --green: green;
 }
 
 .debug{
