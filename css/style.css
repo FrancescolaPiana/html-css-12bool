@@ -8,6 +8,37 @@
 }
 
 .debug{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     min-height: 50px;
 }
+
+.debug2{
+    border: 1px solid rgb(255, 255, 255);
+    min-height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.debug3{
+    border: 1px solid rgb(255, 255, 255);
+    min-height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bkgb{
+    background-color: var(--blue);
+}
+
+.bkgg{
+    background-color: rgb(41, 201, 81);
+    border: 1px solid var(--blue);
+}
+
+.padding{
+    padding: 10px;
+} 
